@@ -1,4 +1,4 @@
-title: Eggsample Status
+title: "  "
 buildFuture: true
 defaultContentLanguage: en
 languageCode: en
@@ -38,12 +38,12 @@ params:
   down: "#e60000"
   systems:
     - name: Вебсайт
-      category: Вебсайт
+      category: Основные модули
       description: Статус работы вебсайта
     - name: Модуль №1 (Звукорежиссура)
-      category: Sound Design
+      category: Основные модули
     - name: Модуль №2 (учебный)
-      category: Student
+      category: Основные модули
   dateFormat: January 2, 2006 // 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
@@ -59,7 +59,9 @@ params:
   incidentHistoryFormat: yearly
   disableIncidentHistory: false
   ok: "#008000"
-  categories: []
+  categories:
+    - untitled: true
+      name: Основные модули
   description: Статус занятости и статус работоспособности сайта
   enableCustomHTML: true
   useLargeHeaderDesign: false
