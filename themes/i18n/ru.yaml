@@ -1,0 +1,160 @@
+# Russian language file for cState
+# Version 4.4
+
+- id: languageCode
+  translation: ru
+- id: languageName
+  translation: Russian
+- id: languageNameShort
+  translation: RUS
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Серьезные затруднения
+- id: isDisrupted
+  translation: Затруднения в работе
+- id: isNotice
+  translation: Прочтите анонс
+- id: isOk
+  translation: В норме
+
+# No JS warning
+- id: noScriptingIntro
+  translation: У вас отключен JavaScript. Пожалуста,
+- id: noScriptingLink
+  translation: включите его
+- id: noScriptingOutro
+  translation: для корретной работы сайта
+
+- id: thisIsDown
+  translation: Остановлена
+- id: thisIsDisrupted
+  translation: Приостановлено
+- id: thisIsNotice
+  translation: Обслуживание
+- id: thisIsOk
+  translation: Работает
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Последнее обновление:
+- id: justNow
+  translation: только что
+- id: someTimeAgo
+  translation: назад
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: лет
+- id: monthsAgo
+  translation: месяцев
+- id: daysAgo
+  translation: дн.
+- id: hoursAgo
+  translation: ч.
+- id: minsAgo
+  translation: мин.
+- id: secondsAgo
+  translation: сек.
+
+- id: autoRefreshNotice
+  translation: Автообновление (5 мин.)
+
+# Incidents
+- id: incidents
+  translation: Случаи
+- id: incidentHistory
+  translation: История случаев
+
+- id: resolved
+  translation: Решено # if it's less than a min
+- id: inUnderAMinute
+  translation: менее, чем за минуту # continuing the last string
+- id: resolvedAfter
+  translation: Решено спустя # + 19 min
+- id: ofDowntime
+  translation:
+
+- id: downtimeOngoing
+  translation: Затруднение не решено
+
+
+- id: calmBeforeTheStorm
+  translation: Is it the calm before the storm?
+- id: noIncidentsDesc
+  translation: Нет инцидентов
+
+
+- id: continueReading
+  translation: Продолжить чтение
+- id: prev
+  translation: Назад
+- id: next
+  translation: Вперед
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Go back to
+- id: backToTop
+  translation: Back to top
+- id: poweredBy
+  translation: Под управлением
+
+- id: notFound
+  translation: There is nothing here.
+- id: notFoundText
+  translation: This could be a problem on our part. Perhaps we moved a certain resource and now it is gone. It is also possible that the resource you are trying to view is empty. But do you also mind to double check the link?
+
+- id: rss
+  translation: Подпишитесь через RSS
+- id: toAllUpdates
+  translation: для получения всех обновлений
+- id: or
+  translation: or
+- id: onlyThisFeed
+  translation: only this feed
+
+##
+## v3
+##
+- id: entries
+  translation: entries
+- id: newestToOldest
+  translation: от новых к старому
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: It looks like this system either does not exist or has never had any recorded downtime.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Recently, based on average data, it looks like this system has gone down for about
+- id: averageSystemsDowntimeSecondPart
+  translation: minutes at a time.
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: in
+- id: weeksAgo
+  translation: " нед."
+- id: yearAgo
+  translation: " лет"
