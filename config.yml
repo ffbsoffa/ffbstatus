@@ -1,6 +1,6 @@
 title: "  "
 buildFuture: true
-defaultContentLanguage: ru
+defaultContentLanguage: en
 languageCode: ru
 baseURL: https://ffbsoffa.org
 theme: cstate
